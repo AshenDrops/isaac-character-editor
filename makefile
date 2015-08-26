@@ -24,7 +24,7 @@ build/data.h: $(DATAFILES)
 
 # For git -- I'm not sure about uploading nicalis resources to github
 res/nicalis/pnglist.txt:
-	echo -n "The files that need to be in this folder are:" > $@
+	echo "The files that need to be in this folder are:" > $@
 	for file in $(wildcard res/nicalis/*); do echo $$file | cut -d "/" -f 3 >> $@; done
 
 #---------

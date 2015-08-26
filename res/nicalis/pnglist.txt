@@ -1,4 +1,5 @@
-The files that need to be in this folder are:ui_cardspills.png
+The files that need to be in this folder are:
+ui_cardspills.png
 hudpickups.png
 menuoverlay.png
 optionsmenu.png
